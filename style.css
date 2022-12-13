@@ -1,0 +1,539 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+/* :root {
+    --mainblack:white;
+    --mainwhite: rgb(71, 45, 45);
+} */
+ body{
+    font-family: sans-serif;
+ }
+ .container{
+    max-width: 1300px;
+    margin: 0 auto;
+    clear: both;
+ }
+
+ .row{
+    display: flex;
+ }
+ .flex-div{
+    display: flex;
+    align-items: center;
+ }
+ /* Header Start Here */
+ header{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to top,
+    rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.88)), url("./images/new\ image.jpg") center/cover fixed no-repeat;
+ }
+ .justify{
+    display: flex;
+    justify-content: space-between;
+ }
+ .header{
+    width: 100%;
+    height: auto;
+ }
+ nav{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+ }
+ .netflix-logo{
+    width: 150px;
+ }
+.right select{
+    margin: 0 15px;
+    background: none;
+    color: white;
+    border: none;
+}
+
+.right option{
+   background: black;
+}
+.right{
+    margin-right: 10px;
+}
+ .netflix-btn{
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+ }
+ /* Header End Here */
+
+ /* Main Start Here */
+ .color-w{
+    color: white;
+ }
+ .main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+ }
+ .unlimited{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .movies-s{
+    text-align: center;
+    margin: 8rem 0;
+    line-height: 2.5rem;
+ }
+ .movies-s h1{
+  font-size: 3em;
+  line-height: 1.2em;
+ }
+ .movies-s p{
+   margin-top: 15px;
+  line-height: 1.2em;
+ }
+ .movies-s form{
+    margin-top: 10px;
+ }
+ .search{
+    min-width: 350px;
+   min-height: 50px;
+    border: 1px solid red;
+    outline: none;
+    padding: 8px 5px;
+    margin-right: -6px;
+    margin-top: 10px;
+    font-size: 16px;
+ }
+ .g-s-btn{
+   min-height: 50px;
+   font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+ }
+
+ /* Section B Start Here */
+ section{
+    width: 100%;
+    height: auto;
+    background: black;
+    border-top: 5px solid rgb(54, 49, 49);
+    border-bottom: 5px solid rgb(54, 49, 49);
+ }
+ 
+ .section{
+    width: 100%;
+    height: auto;
+    background: black;
+    display: flex;
+ }
+
+ .col-1{
+    flex: 1;
+ }
+ .col-1 h1{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+ }
+ .col-1 p{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+ }
+ .margin{
+   line-height: 2.5rem;
+    margin: 8rem 0;
+ }
+ .move{
+    /* margin-bottom: 4rem; */
+   position: relative;
+  }
+  .img-rel{
+   z-index: -2;
+  }
+   video{
+    width: 450px;
+    height: 260px;
+    position: absolute;
+    bottom: 25%;
+    right: 16.6%;
+  }
+  /* Section C Start Here */
+  .m-style h1 {
+   font-size: 2.5rem;
+}
+
+.position-g{
+   position: relative;
+   overflow: hidden;
+}
+
+.texting-d p{
+   line-height: 15px;
+
+}
+.texting-d{
+   margin-left:20px;
+   margin-top: 10px;
+}
+
+.top-margin{
+   margin-top: 10rem;
+}
+.bottom-margin{
+   margin-bottom: 6rem;
+}
+.color-blue{
+   color: blue;
+
+}
+
+.absolute-g{
+   width: 400px;
+   position: absolute;
+   bottom: 0;
+   border: 2px solid darkslategrey;
+   padding:  10px;
+   background: black;
+   border-radius: 15px;
+   margin-left: 18%;
+}
+.gif-d img{
+   width: 50px;
+}
+  /* Section D Start Here */
+
+  /* Section E Start Here */
+  /* Section F Start Here */
+.center{
+    width: 100%;
+    margin: 4rem auto;
+}
+details > summary{
+    list-style-type: none;
+}
+details > summary::-webkit-details-maker{
+    list-style-type: none;
+}
+
+details > summary::after {
+    content: "+";
+    font-size: 3rem;
+    transition: 300ms all ease-in;
+}
+details > summary:hover {
+    background: rgb(141, 137, 137);
+}
+details[open] > summary::after {
+    /* content: "X"; */
+    font-size: 2rem;
+    transform: rotate(45deg);
+}
+
+
+details{
+    width: 800px;
+    margin: 5px auto;
+    background: rgb(41, 39, 39);
+}
+
+.center h1{
+    text-align: center;
+    margin-top: 5px;
+}
+.color-p{
+    padding: 10px;
+    color: white;
+    line-height: 1.5rem;
+    background: rgb(141, 137, 137);
+}
+.color-s{
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-f .m-form-q{
+    text-align: center;
+    margin: 3rem 0;
+    line-height: 2rem;
+}
+.search-q{
+   min-width: 350px;
+  min-height: 50px;
+   border: 1px solid red;
+   outline: none;
+   padding: 10px 5px;
+   margin-right: -6px;
+   margin-top: 10px;
+   font-size: 16px;
+}
+.g-s-btn-q{
+  min-height: 50px;
+  font-size: 18px;
+   font-weight: bold;
+   padding: 0px 15px;
+   padding-top: 13px;
+   padding-bottom: 15px;
+   border: none;
+   background: red;
+   color: white;
+   cursor: pointer;
+}
+
+/* Section G footer Start Here */
+footer {
+   width: 100%;
+   height: auto;
+   background: black;
+   border-top: 5px solid rgb(54, 49, 49);
+}
+.footer{
+   width: 100%;
+   height: auto;
+   background: black;
+   padding: 4rem;
+}
+.q-text {
+   color: white;
+   padding-bottom: 20px;
+}
+
+.col-s{
+   flex: 1;
+   padding: 15px 20px;
+}
+.col-s .col-1 a{
+   color: white;
+}
+.col-s .col-1 p{
+   padding: 10px 0;
+}
+.col-s .col-1{
+   padding: 5px 15px;
+}
+.m-left{
+   margin-left: 1rem;
+}
+.p-l-20{
+   margin-left: 2.2rem;
+   margin-top: 15px;
+}
+select{
+   scroll-behavior: smooth;
+   scrollbar-width: thin;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width:430px){
+
+   .row{
+      flex-direction: column;
+   }
+   .width{
+      width: 100%;
+   }
+   section .my{
+      margin-top: 3rem;
+   }
+   section .my-bottom{
+      margin-bottom: 4rem;
+   }
+   small{
+      font-size: 12px;
+   }
+   .section-f .h1{
+      font-size: 1.5rem;
+      margin: 10px 0;
+   }
+   .netflix-btn {
+      padding: 8px 10px;
+      margin-right: 15px;
+   }
+   .search {
+      width: 250px;
+   }
+   .g-s-btn{
+      margin: 15px 0;
+   }
+   .m-l-mb{
+      margin-left: 15px;
+   }
+   .m-R-mb{
+      margin-right: 15px;
+   }
+
+
+   .movies-s h1{
+      font-size: 2em;
+     }
+     .movies-s p{
+       margin-top: 15px;
+      line-height: 1em;
+     }
+     .movies-s small {
+       font-size: 15px;
+     }
+     .m-form-q small {
+       font-size: 15px;
+     }
+   .col-1 p{
+      margin-bottom: 15px;
+   }
+   .text-c{
+      text-align: center;
+   }
+   .margin{
+      margin: 10px 0px;
+   }
+   .col-1 .kids-img{
+      width: 100%;
+   }
+   .container{
+      width: 100%;
+      margin: 0 auto;
+      clear: both;
+   }
+   .container details {
+      width: 100%;
+      margin: 5px auto; 
+      background: rgb(41, 39, 39);
+   }
+   
+   .center h1 {
+      font-size: 18px;
+   }
+   section{
+      width: 100%;
+   }
+      details[open]>summary::after,details>summary::after {
+         font-size: 25px;
+      }
+      .color-s{
+         font-size: 16px;
+      }
+      .color-p{
+         padding: 15px 2rem;
+      }
+   .footer {
+      padding: 20px 0;
+   }
+   .footer p{
+      font-size: 14px;
+   }
+   .col-1 .font-Tab{
+      font-size: 1.5rem;
+   }
+
+
+   .texting-d p{
+      line-height: 5px;
+      font-size: 12px;
+   
+   }
+   .texting-d{
+      margin-left:10px;
+      margin-top: 5px;
+   
+   }
+   .color-blue{
+      color: blue;
+   
+   }
+   .m-form-q .g-s-btn-q{
+      margin-top: 15px;
+   }
+   .img-text img{
+      width: 50px;
+   }
+   
+    .col-1 .position-g .absolute-g{
+      width: 300px;
+      position: absolute;
+      bottom: 0;
+      border: 2px solid darkslategrey;
+      padding:  5px;
+      background: black;
+      border-radius: 15px;
+      margin-left: 13%;
+   }
+   .gif-d img{
+      width: 40px;
+   }
+   
+}
+
+/* TABLET RESPONSIVENESS */
+@media only screen and (max-width:840px){
+  
+   .netflix-btn{
+      margin-right: 15px;
+   }
+   .width{
+      width: 100%;
+   }
+   .img-rel{
+      width: 400px;
+      margin-right: 15px;
+   }
+   .move video {
+      width: 290px;
+      bottom: 10%;
+      left: 13%;
+   }
+   .m-l-mb {
+      margin-left: 15px;
+   }
+   .col-1 .kids-img {
+      width: 100%;
+   }
+   .col-1 .font-Tab{
+      font-size: 2.2rem;
+   }
+   details {
+      width: 750px;
+   }
+
+   .center h1 {
+      font-size: 2rem;
+   }
+   .footer {
+      padding: 20px 0;
+   }
+
+   .footer p{
+      font-size: 16px;
+   }
+.section  .margin-right-tablet{
+   margin-left: 15px;
+}
+
+   
+   .position-g .absolute-g{
+      width: 350px;
+      padding:  5px;
+      margin-left: 5%;
+   }
+
+
+   .m-form-q .g-s-btn-q{
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+  
+}
